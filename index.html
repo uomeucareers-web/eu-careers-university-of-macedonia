@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="el"> <!-- Set language to Greek (el) for better accessibility -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Careers | University of Macedonia</title> <!-- Page title for browser tab -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+            background: linear-gradient(135deg, #003399 0%, #ffffff 100%); /* EU blue to white gradient */
+            background-attachment: fixed; /* Subtle fixed background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            animation: fadeIn 1s ease-in; /* Fade-in for the whole page */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            max-width: 650px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white for glass effect */
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 3, 153, 0.3); /* Glow effect */
+            text-align: center;
+            animation: slideUp 0.8s ease-out; /* Slide-up animation */
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h1 {
+            color: #003399;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.2s ease-in;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            animation: fadeIn 1.4s ease-in;
+        }
+        .icon {
+            width: 80px; /* Larger flag */
+            height: auto;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease; /* Interactive hover */
+        }
+        .icon:hover {
+            transform: scale(1.1); /* Pulse effect */
+        }
+        .links {
+            list-style: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 15px 0;
+            animation: fadeIn 1.6s ease-in; /* Staggered fade-in */
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+            background: linear-gradient(45deg, #003399, #0055cc); /* Gradient buttons */
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease; /* Smooth transitions */
+        }
+        .links a:hover {
+            background: linear-gradient(45deg, #002266, #003399); /* Darker on hover */
+            transform: translateY(-5px); /* Lift effect */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 3, 153, 0.5); /* Enhanced glow */
+        }
+        .link-icon {
+            margin-right: 10px;
+            font-size: 1.5em; /* Emoji icons */
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #666;
+            animation: fadeIn 2s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- EU flag with interactive hover -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/200px-Flag_of_Europe.svg.png" alt="EU Flag" class="icon">
+        
+        <h1>EU Careers | University of Macedonia</h1>
+        <p>Ανοιχτές θέσεις και ευκαιρίες εργασίες, πρακτικής και σταδιοδρομίας εντός των Θεσμικών Οργάνων, Φορέων και Οργανισμών της Ευρωπαϊκής Ένωσης.</p>
+        
+        <ul class="links">
+            <li><a href="https://talent.ecb.europa.eu/careers"><span class="link-icon">🏦</span>European Central Bank (ECB) | Ανοιχτές θέσεις</a></li>
+            <li><a href="https://esmacareers.adequasys.com/"><span class="link-icon">📈</span>European Securities and Markets Authority (ESMA) | Traineeship Opportunities</a></li>
+            <li><a href="https://erecruitment.eib.org/psc/hr/EIBJOBS/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&focus=Applicant&SiteId=1&pk_vid=416e30e909f80b9a1722346376980286&"><span class="link-icon">💼</span>European Investment Bank (EIB) | Traineeship Opportunities</a></li>
+            <li><a href="https://www.eca.europa.eu/el/traineeships"><span class="link-icon">🔍</span>Ευρωπαϊκό Ελεγκτικό Συνέδριο | Πρακτική Άσκηση</a></li>
+            <li><a href="https://www.eurojust.europa.eu/about-us/jobs/traineeships"><span class="link-icon">⚖️</span>European Union Agency for Criminal Justice Cooperation (EUROJUST) | Πρακτική Άσκηση</a></li>
+            <li><a href="https://www.eui.eu/about/jobopportunities/traineeships#Conditionsforeligibility"><span class="link-icon">🎓</span>European University Institute | Πρακτική Άσκηση</a></li>
+            <li><a href="https://www.coleurope.eu/admission"><span class="link-icon">🏛️</span>College of Europe | Μεταπτυχιακά Προγράμματα</a></li>
+            <li><a href="https://euosha.gestmax.eu/832/1/traineeships-2026"><span class="link-icon">🛡️</span>European Agency for Safety and Health at Work (EU-OSHA) | Paid Traineeship</a></li>
+            <li><a href="https://www.ecml.at/en/About-us/Traineeship"><span class="link-icon">📚</span>European Centre for Modern Languages (ECML) | Traineeship Opportunities</a></li>
+            <li><a href="https://acer.europa.eu/the-agency/careers/traineeship-programme"><span class="link-icon">⚡</span>EU Agency for the Cooperation of Energy Regulators (ACER) | Traineeship Opportunities</a></li>
+            <li><a href="https://eu-careers.europa.eu/en/job-opportunities/data-management-and-data-knowledge"><span class="link-icon">📊</span>Data management and data knowledge (AD7) | Competition</a></li>
+        </ul>
+        
+        <footer>
+            Powered by EU Careers | University of Macedonia © 2025-2026
+        </footer>
+    </div>
+</body>
+</html>
